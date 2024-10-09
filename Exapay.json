@@ -1,10 +1,10 @@
 {
   "openapi": "3.0.1",
    "info": {
-    "title": "Cards  API",
-    "description": {
-            "$ref": "./api.md"
-        },
+    "title": "Cards API",
+     "description": {
+   "$ref": "./api.md"
+ },
     "version": "v1"
   },
   "servers": [
@@ -1467,7 +1467,7 @@
    "additionalProperties": false
  },
      "DigitalBank.CardsService.Models.ProgramViewModel": {
-       "title":"Programs"
+       "title":"Programs",
    "type": "object",
    "properties": {
      "programId": {
@@ -2349,7 +2349,8 @@
             "nullable": true
           },
           "value": {
-            "nullable": true
+            "nullable": true,
+            "type":"string"
           }
         },
         "additionalProperties": false
@@ -2444,7 +2445,8 @@
             "nullable": true
           },
           "defaultValue": {
-            "nullable": true
+            "nullable": true,
+            "type":"string"
           }
         },
         "additionalProperties": false
@@ -2801,7 +2803,8 @@
             "type": "boolean"
           },
           "defaultValue": {
-            "nullable": true
+            "nullable": true,
+            "type":"string"
           }
         },
         "additionalProperties": false
@@ -2854,7 +2857,8 @@
             "type": "boolean"
           },
           "defaultValue": {
-            "nullable": true
+            "nullable": true,
+            "type":"string"
           },
           "constraintTypes": {
             "type": "array",
